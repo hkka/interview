@@ -14,12 +14,16 @@ import java.util.stream.Collectors;
 public class Packaging {
     private List<Integer> articles = new ArrayList<>();
 
-    public void addArticle(Integer article){
+    public void addArticle(Integer article) {
         this.articles.add(article);
     }
 
+    public void resetArticlesList() {
+        this.articles.clear();
+    }
+
     @Override
-    public String toString(){
+    public String toString() {
         return articles.stream().map(article -> String.valueOf(article)).collect(Collectors.joining(""));
     }
 }
