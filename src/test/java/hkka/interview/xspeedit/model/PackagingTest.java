@@ -26,4 +26,15 @@ public class PackagingTest {
         assertThat(packagingToString).isEqualToIgnoringCase(expectedPackagingToString);
     }
 
+    @Test
+    public void shouldResetArticlesList(){
+        Packaging packaging = new Packaging();
+        packaging.addArticle(1);
+        packaging.addArticle(2);
+        packaging.addArticle(3);
+        packaging.resetArticlesList();
+        assertThat(packaging.getArticles()).isEmpty();
+
+    }
+
 }
