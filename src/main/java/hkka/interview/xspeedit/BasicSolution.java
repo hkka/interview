@@ -11,19 +11,19 @@ public class BasicSolution {
         StringBuffer sb = new StringBuffer();
         int sum = 0;
         for (int c : chaine) {
-                sum = sum + c;
-                if (sum == 10) {
-                    sb.append(c);
-                    sb.append("/");
-                    sum = 0;
-                } else if (sum > 10) {
-                    sb.append("/");
-                    sb.append(c);
-                    sum = c;
-                } else {
-                    sb.append(c);
-                }
+            sum = sum + c;
+            if (sum == 10) {
+                sb.append(c);
+                sb.append("/");
+                sum = 0;
+            } else if (sum > 10) {
+                sb.append("/");
+                sb.append(c);
+                sum = c;
+            } else {
+                sb.append(c);
             }
+        }
         return sb.toString();
     }
 }

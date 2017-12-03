@@ -1,6 +1,7 @@
 package hkka.interview.xspeedit.model;
 
 import org.junit.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class PackagingTest {
@@ -14,7 +15,7 @@ public class PackagingTest {
     }
 
     @Test
-    public void shouldReturnArticlesAsStringWhenToStringCalled(){
+    public void shouldReturnArticlesAsStringWhenToStringCalled() {
         String expectedPackagingToString = "123";
         Packaging packaging = new Packaging();
         packaging.addArticle(1);
