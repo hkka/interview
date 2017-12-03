@@ -18,6 +18,10 @@ public class Packaging {
         this.articles.add(article);
     }
 
+    public void resetArticlesList(){
+        this.articles.clear();
+    }
+
     @Override
     public String toString(){
         return articles.stream().map(article -> String.valueOf(article)).collect(Collectors.joining(""));
