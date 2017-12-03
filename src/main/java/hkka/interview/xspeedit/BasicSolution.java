@@ -1,6 +1,6 @@
 package hkka.interview.xspeedit;
 
-public class Basic {
+public class BasicSolution {
 
     public static void main(String[] args) {
         int[] chaine = {1, 6, 3, 8, 4, 1, 6, 8, 9, 5, 2, 5, 7, 7, 3};
