@@ -30,7 +30,7 @@ hs_err_pid*
 .idea/**/tasks.xml
 .idea/dictionaries
 *.iml
-.target
+
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
@@ -44,6 +44,9 @@ hs_err_pid*
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
+
+# Maven
+target/
 
 # CMake
 cmake-build-debug/
