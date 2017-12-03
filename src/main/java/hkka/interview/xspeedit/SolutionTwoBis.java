@@ -8,8 +8,6 @@ import java.util.stream.IntStream;
 
 public class SolutionTwoBis {
 
-    final public static String BAD_ARTCILE_LIST_ARG_ERROR = "Liste des articles est null ou vide !!!";
-
     public static void main(String[] args) {
         int[] articles = {1, 6, 3, 8, 4, 1, 6, 8, 9, 5, 2, 5, 7, 7, 3};
         List<Integer> articlesList = new ArrayList();
